@@ -4,3 +4,6 @@
 [submodule "backend"]
 	path = backend
 	url = https://github.com/MartinCiro/test_laravel_api.git
+[submodule "algorithms"]
+	path = algorithms
+	url = https://github.com/MartinCiro/algorithms_test.git

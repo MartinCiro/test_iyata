@@ -60,14 +60,8 @@ git submodule update --remote backend
 
 ### Opción A: Desplegar todo el sistema
 ```bash
-# Backend (desde la carpeta backend)
-cd backend
 docker-compose up -d --build
 docker-compose exec laravel_back php artisan migrate
-
-# Frontend (desde la carpeta frontend)
-cd ../frontend
-docker-compose up -d --build
 ```
 
 ### Opción B: Desarrollo local
@@ -82,6 +76,18 @@ php artisan serve
 cd ../frontend
 npm install
 npm run dev
+```
+
+### Opción C: Prueba individual
+```bash
+# Backend (desde la carpeta backend)
+cd backend
+docker-compose up -d --build
+docker-compose exec laravel_back php artisan migrate
+
+# Frontend (desde la carpeta frontend)
+cd ../frontend
+docker-compose up -d --build
 ```
 
 ## 🌐 URLs de la Aplicación
