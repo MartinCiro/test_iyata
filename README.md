@@ -47,6 +47,10 @@ git submodule update --remote
 
 Este comando actualizará tanto el frontend como el backend a los últimos commits de sus respectivas ramas principales.
 
+## Algoritmos
+
+Se genera un enlace para pruebas interactivas de los [algoritmos](https://martinciro.github.io/algorithms_test)
+
 ### Actualización individual
 ```bash
 # Actualizar solo el frontend
@@ -206,12 +210,6 @@ git commit -m "fix: resolve submodule conflicts"
 rm -rf test_iyata
 git clone --recursive https://github.com/MartinCiro/test_iyata.git
 ```
-
-## 📞 Soporte
-
-- **Frontend Issues**: [Repositorio Frontend](https://github.com/MartinCiro/iyata-frontend/issues)
-- **Backend Issues**: [Repositorio Backend](https://github.com/MartinCiro/iyata-api/issues)
-- **Proyecto Principal**: [Repositorio Principal](https://github.com/MartinCiro/test_iyata/issues)
 
 ---
 
